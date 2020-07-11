@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "INEngineLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "IOLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/INEngineLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/INEngineLib.dll": {}
+        }
+      },
       "IOLib/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "INEngineLib/1.0.0": {
+      "type": "project",
+      "path": "../INEngineLib/INEngineLib.csproj",
+      "msbuildProject": "../INEngineLib/INEngineLib.csproj"
+    },
     "IOLib/1.0.0": {
       "type": "project",
       "path": "../IOLib/IOLib.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "INEngineLib >= 1.0.0",
       "IOLib >= 1.0.0"
     ]
   },
@@ -56,6 +75,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "G:\\VS19_Apps\\IrrigationNetEngine\\INEngineLib\\INEngineLib.csproj": {
+              "projectPath": "G:\\VS19_Apps\\IrrigationNetEngine\\INEngineLib\\INEngineLib.csproj"
+            },
             "G:\\VS19_Apps\\IrrigationNetEngine\\IOLib\\IOLib.csproj": {
               "projectPath": "G:\\VS19_Apps\\IrrigationNetEngine\\IOLib\\IOLib.csproj"
             }

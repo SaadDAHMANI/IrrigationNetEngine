@@ -14,3 +14,5 @@ G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\Ir
 G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.dll
 G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.pdb
 G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.genruntimeconfig.cache
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\INEngineLib.dll
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\INEngineLib.pdb

@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v3.1": {
       "IrrigationNetConsole/1.0.0": {
         "dependencies": {
+          "INEngineLib": "1.0.0",
           "IOLib": "1.0.0"
         },
         "runtime": {
           "IrrigationNetConsole.dll": {}
+        }
+      },
+      "INEngineLib/1.0.0": {
+        "dependencies": {
+          "IOLib": "1.0.0"
+        },
+        "runtime": {
+          "INEngineLib.dll": {}
         }
       },
       "IOLib/1.0.0": {
@@ -23,6 +32,11 @@
   },
   "libraries": {
     "IrrigationNetConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "INEngineLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

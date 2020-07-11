@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "G:\\VS19_Apps\\IrrigationNetEngine\\IrrigationNetConsole\\IrrigationNetConsole.csproj": {}
+    "G:\\VS19_Apps\\IrrigationNetEngine\\INEngineLib\\INEngineLib.csproj": {}
   },
   "projects": {
     "G:\\VS19_Apps\\IrrigationNetEngine\\INEngineLib\\INEngineLib.csproj": {
@@ -120,68 +120,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "G:\\VS19_Apps\\IrrigationNetEngine\\IrrigationNetConsole\\IrrigationNetConsole.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "G:\\VS19_Apps\\IrrigationNetEngine\\IrrigationNetConsole\\IrrigationNetConsole.csproj",
-        "projectName": "IrrigationNetConsole",
-        "projectPath": "G:\\VS19_Apps\\IrrigationNetEngine\\IrrigationNetConsole\\IrrigationNetConsole.csproj",
-        "packagesPath": "C:\\Users\\NetinfoTALI\\.nuget\\packages\\",
-        "outputPath": "G:\\VS19_Apps\\IrrigationNetEngine\\IrrigationNetConsole\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\NetinfoTALI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "G:\\VS19_Apps\\IrrigationNetEngine\\INEngineLib\\INEngineLib.csproj": {
-                "projectPath": "G:\\VS19_Apps\\IrrigationNetEngine\\INEngineLib\\INEngineLib.csproj"
-              },
-              "G:\\VS19_Apps\\IrrigationNetEngine\\IOLib\\IOLib.csproj": {
-                "projectPath": "G:\\VS19_Apps\\IrrigationNetEngine\\IOLib\\IOLib.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vF+fvu7zrD+bZUDyV+SFOgXDc8iOb1M7uBOMpn5bwxA8hH3omEjoiN8lXoKFsPIumvz7lwmu9QGBPCJ/wgphLw==",
+  "success": true,
+  "projectFilePath": "G:\\VS19_Apps\\IrrigationNetEngine\\INEngineLib\\INEngineLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

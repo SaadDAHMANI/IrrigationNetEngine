@@ -1,0 +1,12 @@
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\bin\Debug\netstandard2.0\INEngineLib.deps.json
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\bin\Debug\netstandard2.0\INEngineLib.dll
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\bin\Debug\netstandard2.0\INEngineLib.pdb
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\bin\Debug\netstandard2.0\IOLib.dll
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\bin\Debug\netstandard2.0\IOLib.pdb
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\obj\Debug\netstandard2.0\INEngineLib.csprojAssemblyReference.cache
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\obj\Debug\netstandard2.0\INEngineLib.AssemblyInfoInputs.cache
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\obj\Debug\netstandard2.0\INEngineLib.AssemblyInfo.cs
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\obj\Debug\netstandard2.0\INEngineLib.csproj.CoreCompileInputs.cache
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\obj\Debug\netstandard2.0\INEngineLib.csproj.CopyComplete
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\obj\Debug\netstandard2.0\INEngineLib.dll
+G:\VS19_Apps\IrrigationNetEngine\INEngineLib\obj\Debug\netstandard2.0\INEngineLib.pdb
