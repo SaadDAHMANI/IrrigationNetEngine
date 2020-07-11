@@ -21,7 +21,7 @@ public IOCrop Read()
 {  
     IOCrop crop =null;
      if(FilePath== string.Empty){throw new Exception("Err in file path");}
-     if (File.Exists(FilePath)==false ){throw new FileNotFoundException(FilePath);}
+     if (File.Exists(FilePath)==false ){throw new FileNotFoundException();}
      crop = new IOCrop();
      try
      {
