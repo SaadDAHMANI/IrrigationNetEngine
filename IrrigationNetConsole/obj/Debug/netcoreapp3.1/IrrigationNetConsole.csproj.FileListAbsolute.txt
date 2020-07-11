@@ -1,0 +1,16 @@
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IrrigationNetConsole.exe
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IrrigationNetConsole.deps.json
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IrrigationNetConsole.runtimeconfig.json
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IrrigationNetConsole.runtimeconfig.dev.json
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IrrigationNetConsole.dll
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IrrigationNetConsole.pdb
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IOLib.dll
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\bin\Debug\netcoreapp3.1\IOLib.pdb
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.csprojAssemblyReference.cache
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.AssemblyInfoInputs.cache
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.AssemblyInfo.cs
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.csproj.CoreCompileInputs.cache
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.csproj.CopyComplete
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.dll
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.pdb
+G:\VS19_Apps\IrrigationNetEngine\IrrigationNetConsole\obj\Debug\netcoreapp3.1\IrrigationNetConsole.genruntimeconfig.cache
