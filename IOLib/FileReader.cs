@@ -22,9 +22,10 @@ public IOCrop Read()
     IOCrop crop =null;
      if(FilePath== string.Empty){throw new Exception("Err in file path");}
      if (File.Exists(FilePath)==false ){throw new FileNotFoundException();}
-     crop = new IOCrop();
+     
      try
      {
+     crop = new IOCrop();
      StreamReader strmReader= new StreamReader(FilePath);
      crop.FileSource = FilePath;
      crop.FileFormat = strmReader.ReadLine().Trim();
@@ -75,9 +76,12 @@ public IOCrop Read()
      crop.CropHeight= Convert.ToDouble(line8);
 
      }
-     catch(Exception ex) {throw ex;}       
+     catch(Exception ex)
+      {
+          crop=null;
+          throw ex;
+      }       
      return crop;
-
     }
 }
 }
