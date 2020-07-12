@@ -28,12 +28,7 @@ namespace IrrigationNetConsole
             
              IOSoil sol = IOSoil.Load(soilFile);
              Console.WriteLine(sol.TotalAvailableMoisture); 
-
-             //string[] data=sol.Content.Split(' ');
-             //foreach(string value in data)
-             //{
-               //  Console.WriteLine(value);
-             //}
+          
              
 
         }
