@@ -143,15 +143,40 @@ namespace INEngineLib
              set{_CriticalDepletion3=Math.Max(value,0);}
          }
 
-         public double YieldResponse1;
+         private double _YieldResponse1;   
+         public double YieldResponse1
+         {
+             get{return _YieldResponse1;}
+             set{_YieldResponse1=Math.Max(value, 0);}
+         }
 
-         public double YieldResponse2;
+          private double _YieldResponse2;   
+         public double YieldResponse2
+         {
+             get{return _YieldResponse2;}
+             set{_YieldResponse2=Math.Max(value, 0);}
+         }
 
-         public double YieldResponse3;
+           private double _YieldResponse3;   
+         public double YieldResponse3
+         {
+             get{return _YieldResponse3;}
+             set{_YieldResponse3=Math.Max(value, 0);}
+         }
 
-         public double YieldResponse4;
+           private double _YieldResponse4;   
+         public double YieldResponse4
+         {
+             get{return _YieldResponse4;}
+             set{_YieldResponse4=Math.Max(value, 0);}
+         }
 
-         public double YieldResponse5;
+          private double _YieldResponse5;   
+         public double YieldResponse5
+         {
+             get{return _YieldResponse5;}
+             set{_YieldResponse5=Math.Max(value, 0);}
+         }
          
         //
         //In (meter) unit.

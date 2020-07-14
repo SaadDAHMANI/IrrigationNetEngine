@@ -82,6 +82,41 @@ namespace INEngineLib.Tests
              Assert.Equal(0, Crop_uts.CriticalDepletion3);
          }
 
+         [Fact]
+         public void YieldResponse1WhenNegativeInput()
+         {
+             Crop_uts.YieldResponse1=-12;
+             Assert.Equal(0, Crop_uts.YieldResponse1);
+         }
+
+         [Fact]
+         public void YieldResponse2WhenNegativeInput()
+         {
+             Crop_uts.YieldResponse2=-122;
+             Assert.Equal(0, Crop_uts.YieldResponse2);
+         }
+
+         [Fact]
+         public void YieldResponse3WhenNegativeInput()
+         {
+             Crop_uts.YieldResponse3=-312;
+             Assert.Equal(0, Crop_uts.YieldResponse3);
+         }
+
+          [Fact]
+         public void YieldResponse4WhenNegativeInput()
+         {
+             Crop_uts.YieldResponse4=-142;
+             Assert.Equal(0, Crop_uts.YieldResponse4);
+         }
+
+          [Fact]
+         public void YieldResponse5WhenNegativeInput()
+         {
+             Crop_uts.YieldResponse5=-125;
+             Assert.Equal(0, Crop_uts.YieldResponse5);
+         }
+
         [Fact]
         public void HarvestDateWhenCropLifIs10Days()
         {
