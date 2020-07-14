@@ -81,11 +81,26 @@ namespace INEngineLib
             set {_LateSeasonStage=Math.Max(value,0);}
         }
        
-        public double Kc1;
+        private double _Kc1;
+        public double Kc1
+        {
+            get {return _Kc1;}
+            set {_Kc1=Math.Max(value,0);}
+        }
 
-         public double Kc2;
+        private double _Kc2;
+        public double Kc2
+        {
+            get {return _Kc2;}
+            set {_Kc2=Math.Max(value,0);}
+        }
 
-         public double Kc3;
+        private double _Kc3;
+        public double Kc3
+        {
+            get {return _Kc3;}
+            set {_Kc3=Math.Max(value,0);}
+        }
 
         //
         //In (meter) unit.

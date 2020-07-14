@@ -15,10 +15,8 @@ namespace INEngineLib.Tests
          //constructur:
          public CropTests()
          {
-             Crop_uts= new Crop();
-             
+             Crop_uts= new Crop();             
          }
-
 
          [Fact]
          public void InitialStageWhenNegativeInput()
@@ -30,8 +28,7 @@ namespace INEngineLib.Tests
           [Fact]  
          public void DevelopmentStageWhenNegativeInput()
          {
-             Crop_uts.DevelopmentStage =-256;
-             
+             Crop_uts.DevelopmentStage =-256;             
              Assert.Equal(0,Crop_uts.DevelopmentStage);
          }
 
@@ -78,5 +75,28 @@ namespace INEngineLib.Tests
             DateTime predictedHarvestDate = Convert.ToDateTime("#09/01/2020#");
             Assert.Equal(predictedHarvestDate, Crop_uts.HarvestDate);
         }
+
+        [Fact]
+        public void Kc1WhenNegativeInput()
+        {
+            Crop_uts.Kc1=-25;
+            Assert.Equal(0,Crop_uts.Kc1);
+        }
+
+        [Fact]
+        public void Kc2WhenNegativeInput()
+        {
+            Crop_uts.Kc2=-5;
+            Assert.Equal(0,Crop_uts.Kc2);
+        }
+
+        [Fact]
+        public void Kc3WhenNegativeInput()
+        {
+            Crop_uts.Kc2=-2;
+            Assert.Equal(0,Crop_uts.Kc3);
+        }
+        
+
     }
 }
