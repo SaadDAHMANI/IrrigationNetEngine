@@ -1,4 +1,5 @@
 ﻿using System;
+using IOLib;
 
 namespace INEngineLib
 {
@@ -39,7 +40,7 @@ namespace INEngineLib
             return Name;
         }
 
-        public static Soil ConvertFrom(IOLib.IOSoil ioSoil)
+        public static Soil ConvertFrom(IOSoil ioSoil)
         {
             
             if (object.Equals(ioSoil,null)){return null;}
