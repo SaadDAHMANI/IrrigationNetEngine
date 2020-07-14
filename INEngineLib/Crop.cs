@@ -104,7 +104,8 @@ namespace IrrigationNetConsole
  public static Crop ConvertFrom(IOCrop ioCrp)
  {       
      if (Equals(ioCrp, null)) {return null;}
-      Crop newCrop =null;
+     Crop newCrop;
+     
      try
      {
      newCrop = new Crop();
