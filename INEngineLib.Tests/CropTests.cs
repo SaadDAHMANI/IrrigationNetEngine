@@ -18,6 +18,14 @@ namespace INEngineLib.Tests
              Crop_uts= new Crop();
          }
 
+
+         [Fact]
+         public void InitialStageWhenNegativeInput()
+         {
+             Crop_uts.InitialStage=-10;
+             Assert.Equal(0, Crop_uts.InitialStage);
+         }
+
         [Fact]
         public void HarvestDateWhenCropLifIs10Days()
         {

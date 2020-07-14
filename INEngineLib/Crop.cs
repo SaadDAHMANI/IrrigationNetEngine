@@ -41,10 +41,15 @@ namespace INEngineLib
              get {return (InitialStage+DevelopmentStage+MidSeasonStage+LateSeasonStage);}
          }   
 
+        private double _InitialStage=0;
         //
         //In (days) unit.
         //
-        public double InitialStage;
+        public double InitialStage
+        {
+            get{return _InitialStage;}
+            set {_InitialStage=Math.Max(value,0);}
+        }
 
         //
         //In (days) unit.
