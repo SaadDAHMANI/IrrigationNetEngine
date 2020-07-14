@@ -10,7 +10,7 @@ namespace INEngineLib.Tests
         //
         //Crop under test.
         //  
-         Crop Crop_uts;        
+        readonly Crop Crop_uts;        
          
          //constructur:
          public CropTests()
