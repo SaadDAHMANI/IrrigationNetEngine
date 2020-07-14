@@ -124,6 +124,7 @@ namespace INEngineLib.Tests
             DateTime predictedHarvestDate = Convert.ToDateTime("#07/25/2020#");
             Assert.Equal(predictedHarvestDate, Crop_uts.HarvestDate);
         }
+
         [Fact] 
         public void HarvestDateWhenCropLifIs160Days()
         {
@@ -146,6 +147,22 @@ namespace INEngineLib.Tests
             DateTime predictedHarvestDate = Convert.ToDateTime("#09/01/2020#");
             Assert.Equal(predictedHarvestDate, Crop_uts.HarvestDate);
         }
+
+        [Theory]
+        [InlineData("#01/01/2020#", 10, 10, -10, 10, "#01/31/2020#")]
+        [InlineData("#04/01/2020#", 15, 15, 15, 16, "#06/01/2020#")]    
+        public void HarvestDateMultipleTests(string plantDate, double iniStg, double devStg, double midsStg, double ltStg, string hrvstDate)
+        {
+             Crop_uts.PlantingDate=Convert.ToDateTime(plantDate);
+             Crop_uts.InitialStage =iniStg;
+             Crop_uts.DevelopmentStage =devStg;
+             Crop_uts.MidSeasonStage=midsStg;
+             Crop_uts.LateSeasonStage=ltStg;
+            DateTime predictedHarvestDate = Convert.ToDateTime(hrvstDate);
+            Assert.Equal(predictedHarvestDate, Crop_uts.HarvestDate);
+            
+        }
+
 
         [Fact]
         public void Kc1WhenNegativeInput()
