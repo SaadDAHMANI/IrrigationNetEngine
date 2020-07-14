@@ -88,10 +88,10 @@ public static IOCrop Load(string filePath)
 }
 private static IOCrop LoadFromCropwatFile(string filePath)
 {  
-    IOCrop crop =null;    
+    IOCrop crop = new IOCrop();  
     try
      {
-     crop = new IOCrop();
+     
      crop.FileSource = filePath;
 
      StreamReader strmReader= new StreamReader(filePath);
@@ -145,7 +145,7 @@ private static IOCrop LoadFromCropwatFile(string filePath)
      }
      catch(Exception ex)
       {
-          crop=null;
+          //crop=null;
           throw ex;
       }       
      return crop;

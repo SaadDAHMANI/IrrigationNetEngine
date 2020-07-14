@@ -14,8 +14,7 @@ namespace IrrigationNetConsole
              Console.WriteLine(cropfile);         
              
              //crop data:
-             IOCrop ioCrop= new IOCrop();
-             ioCrop =IOCrop.Load(cropfile);
+             IOCrop ioCrop =IOCrop.Load(cropfile);
 
              Crop crp = Crop.ConvertFrom(ioCrop);
              Console.WriteLine("Crop = {0}.", crp.Name);   

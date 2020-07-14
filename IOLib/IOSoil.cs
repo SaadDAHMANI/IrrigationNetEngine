@@ -54,10 +54,9 @@ public class IOSoil
 
         private static IOSoil LoadFromCropwatFile(string filepath)
         {
-            IOSoil soil= null;
+            IOSoil soil=new IOSoil();
              try
              {
-                 soil=new IOSoil();
                  soil.FileSource=filepath;
 
                  StreamReader strmReader = new StreamReader(filepath);
@@ -83,7 +82,7 @@ public class IOSoil
              }   
              catch(Exception ex)
              {   
-                 soil=null;
+                 //soil=null;
                  throw ex;
              }   
             return soil;

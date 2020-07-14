@@ -43,11 +43,10 @@ namespace INEngineLib
         {
             
             if (object.Equals(ioSoil,null)){return null;}
-            Soil sol = null;
+            Soil sol = new Soil();
             try
             {
-             sol = new Soil();
-          
+                    
              sol.FileFormat=ioSoil.FileFormat;
              sol.FileSource=ioSoil.FileSource;
              sol.Name=ioSoil.Name;
@@ -57,7 +56,9 @@ namespace INEngineLib
              sol.InitialMoistureDepletion=ioSoil.InitialMoistureDepletion;
              sol.InitialAvailableMoisture=ioSoil.TotalAvailableMoisture;
             }
-            catch (Exception ex){sol=null; throw ex;}
+            catch (Exception ex)
+            {//sol=null; 
+            throw ex;}
             return sol;
         }
 

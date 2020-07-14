@@ -104,11 +104,10 @@ namespace IrrigationNetConsole
  public static Crop ConvertFrom(IOCrop ioCrp)
  {       
      if (Equals(ioCrp, null)) {return null;}
-     Crop newCrop;
+     Crop newCrop = new Crop();
      
      try
-     {
-     newCrop = new Crop();
+     {    
      
      newCrop.Name =ioCrp.Name;
      newCrop.FileSource=ioCrp.FileSource;
@@ -138,7 +137,9 @@ namespace IrrigationNetConsole
 
      newCrop.CropHeight=ioCrp.CropHeight;
      }
-     catch(Exception ex) {newCrop= null; throw ex;}
+     catch(Exception ex) 
+     { //newCrop= null; 
+     throw ex;}
      return newCrop; 
  }
 
