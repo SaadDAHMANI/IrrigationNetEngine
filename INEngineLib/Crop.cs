@@ -102,21 +102,46 @@ namespace INEngineLib
             set {_Kc3=Math.Max(value,0);}
         }
 
+        double _RoutingDepth1;
         //
         //In (meter) unit.
         //
-         public double RoutingDepth1;
+         public double RoutingDepth1
+         {
+             get{return _RoutingDepth1;}
+             set {_RoutingDepth1= Math.Max(value,0);}
+         }
 
+         private double _RoutingDepth2;
         //
         //In (meter) unit.
         //   
-         public double RoutingDepth2;
+         public double RoutingDepth2
+         {
+             get{return _RoutingDepth2;}
+             set{_RoutingDepth2=Math.Max(value,0);}
+         }
 
-         public double CriticalDepletion1;
+         private double _CriticalDepletion1;
+         public double CriticalDepletion1
+         {
+             get{return _CriticalDepletion1;}
+             set{_CriticalDepletion1=Math.Max(value,0);}
+         }
 
-         public double CriticalDepletion2;
+         private double _CriticalDepletion2;
+         public double CriticalDepletion2
+         {
+             get{return _CriticalDepletion2;}
+             set{_CriticalDepletion2=Math.Max(value,0);}
+         }
 
-         public double CriticalDepletion3;
+         private double _CriticalDepletion3;
+         public double CriticalDepletion3
+         {
+             get{return _CriticalDepletion3;}
+             set{_CriticalDepletion3=Math.Max(value,0);}
+         }
 
          public double YieldResponse1;
 

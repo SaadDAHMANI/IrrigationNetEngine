@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+
 using INEngineLib;
 
 namespace INEngineLib.Tests
@@ -10,7 +11,7 @@ namespace INEngineLib.Tests
         //
         //Crop under test.
         //  
-        readonly Crop Crop_uts;        
+         readonly Crop Crop_uts;        
          
          //constructur:
          public CropTests()
@@ -44,6 +45,41 @@ namespace INEngineLib.Tests
          {
              Crop_uts.LateSeasonStage=-31;
              Assert.Equal(0,Crop_uts.LateSeasonStage);   
+         }
+
+         [Fact]
+         public void RoutingDepth1WhenNegativeInput()
+         {
+             Crop_uts.RoutingDepth1=-57;
+             Assert.Equal(0,Crop_uts.RoutingDepth1);
+         }
+
+         [Fact]
+         public void RoutingDepth2WhenNegativeInput()
+         {
+             Crop_uts.RoutingDepth2=-57;
+             Assert.Equal(0,Crop_uts.RoutingDepth2);
+         }
+
+         [Fact]
+         public void CriticalDepletion1WhenNegativeInput()
+         {
+             Crop_uts.CriticalDepletion1=-11;
+             Assert.Equal(0, Crop_uts.CriticalDepletion1);
+         }
+
+         [Fact]
+         public void CriticalDepletion2WhenNegativeInput()
+         {
+             Crop_uts.CriticalDepletion2=-15;
+             Assert.Equal(0, Crop_uts.CriticalDepletion2);
+         }
+
+         [Fact]
+         public void CriticalDepletion3WhenNegativeInput()
+         {
+             Crop_uts.CriticalDepletion3=-121;
+             Assert.Equal(0, Crop_uts.CriticalDepletion3);
          }
 
         [Fact]
