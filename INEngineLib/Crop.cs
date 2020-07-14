@@ -51,20 +51,35 @@ namespace INEngineLib
             set {_InitialStage=Math.Max(value,0);}
         }
 
+        private double _DevelopmentStage;
         //
         //In (days) unit.
         //
-        public double DevelopmentStage;
+        public double DevelopmentStage
+        {
+            get {return _DevelopmentStage;}
+            set {_DevelopmentStage =Math.Max(value,0);}
+        }
         
+        private double _MidSeasonStage;
         //
         //In (days) unit.
         //
-        public double MidSeasonStage;
+        public double MidSeasonStage
+        {
+            get{return _MidSeasonStage;}
+            set{_MidSeasonStage =Math.Max(value,0);}
+        }
         
+        private double _LateSeasonStage;
         //
         //In (days) unit.
         //
-        public double LateSeasonStage;
+        public double LateSeasonStage
+        {
+            get{ return _LateSeasonStage;}
+            set {_LateSeasonStage=Math.Max(value,0);}
+        }
        
         public double Kc1;
 
